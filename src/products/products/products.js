@@ -42,7 +42,7 @@ export const products = [
     },
 
     {
-        'id': 'short-denim',
+        'id': 'short denim',
         'product': 'short denim',
         'description': 'Shorts de tiro alto con cinco bolsillos. Detalle de rotos y bajo sin costuras. Cierre frontal con cremallera y botón metálico.',
         'size': ['32', '34', '36', '38'],
@@ -78,14 +78,6 @@ export const products = [
     },
 
     {   
-        'id': 'pantalón-cafe',
-        'product': 'pantalón cafe',
-        'description': 'Pantalón de tiro alto con bolsillos laterales. Detalle de pliegues. Cierre frontal con cremallera, botón interior y ganchos metálicos.',
-        'size': ['XS', 'S', 'M', 'L'],
-       'coleccion': 'hombre' 
-    },
-
-    {   
         'id': 'sandalias-negras',
         'product': 'sandalias negras',
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
@@ -94,8 +86,16 @@ export const products = [
     },
 
     {   
+        'id': 'camisa-azul',
+        'product': 'camisa azul',
+        'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
+        'size': ['S', 'M', 'L', 'XL'],
+       'coleccion': 'hombre' 
+    },
+
+    {   
         'id': 'camisa-estampada',
-        'product': 'sandalias negras',
+        'product': 'camisa-estampada',
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['S', 'M', 'L', 'XL'],
        'coleccion': 'hombre' 
@@ -134,14 +134,6 @@ export const products = [
     },
 
     {   
-        'id': 'pantalón-beige',
-        'product': 'pantalón beige',
-        'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
-        'size': ['36', '38', '40', '42'],
-       'coleccion': 'hombre' 
-    },
-
-    {   
         'id': 'pantalón-crema',
         'product': 'pantalón crema',
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
@@ -166,7 +158,7 @@ export const products = [
     },
 
     {   
-        'id': 'top-blanca',
+        'id': 'top-blanco',
         'product': 'top blanca',
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['XS', 'S', 'M', 'L'],
@@ -198,7 +190,7 @@ export const products = [
     },
 
     {   
-        'id': 'falda-denim',
+        'id': 'falda-denim',    
         'product': 'falda denim',
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['32', '34', '36', '38'],
@@ -213,11 +205,4 @@ export const products = [
        'coleccion': 'mujer' 
     },
 
-    {   
-        'id': 'short-alto',
-        'product': 'short alto',
-        'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
-        'size': ['32', '34', '36', '38'],
-       'coleccion': 'mujer' 
-    },
 ]
