@@ -30,6 +30,12 @@ export const Navbar = () => {
                         >
                             Colección Mujeres
                         </NavLink>
+                        <NavLink
+                            className="nav-item nav-link"
+                            to="/search "
+                        >
+                            Buscar Producto
+                        </NavLink>
                     </h5>
                 </div>
 

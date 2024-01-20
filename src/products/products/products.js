@@ -105,7 +105,7 @@ export const products = [
 
     {   
         'id': 'camisa-estampada',
-        'product': 'camisa-estampada',
+        'product': 'camisa estampada',
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['S', 'M', 'L', 'XL'],
        'coleccion': 'hombre',
@@ -146,15 +146,6 @@ export const products = [
         'size': ['36', '38', '40', '42'],
        'coleccion': 'hombre',
        'price': 'S/ 89'
-    },
-
-    {   
-        'id': 'pantalón-crema',
-        'product': 'pantalón crema',
-        'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
-        'size': ['36', '38', '40', '42'],
-       'coleccion': 'hombre',
-       'price': 'S/ 96'
     },
 
     {   

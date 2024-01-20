@@ -3,9 +3,9 @@ import { ProductList } from "../components"
 export const ColeccionM = () => {
     return(
         <>
-        <header className="container justify-content-center text-center d-flex">
+        <div className="container justify-content-center text-center animate__animated animate__zoomIn">
             <h1>Colección Mujeres</h1>
-        </header>
+        </div>
         <hr />
         <ProductList coleccion="mujer"/>
         </>

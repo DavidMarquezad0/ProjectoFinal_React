@@ -12,7 +12,7 @@ export const ProductsRoutes = () => {
             <Route path='coleccion-Hombres' element={<ColeccionH />} />
             <Route path='coleccion-Mujeres' element={<ColeccionM />} />
             <Route path='search' element={<SearchPage />} />
-            <Route path='product' element={<ProductPage />} />
+            <Route path='product/:id' element={<ProductPage />} />
             <Route path='/*' element={<Navigate to="home-Page" />} />
             </Routes>
             </div>
