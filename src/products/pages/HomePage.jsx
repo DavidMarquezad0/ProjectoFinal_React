@@ -1,4 +1,3 @@
-
 export const HomePage = () => {
     return(
         <header className="container justify-content-center text-center d-flex">

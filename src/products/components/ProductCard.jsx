@@ -1,8 +1,7 @@
 export const ProductCard = ({
     id,
     product,
-    description,
-    size,
+    price,
 
 }) => {
     const ProductImgUrl = `/img/${id}.jpg`
@@ -14,7 +13,12 @@ export const ProductCard = ({
                         <img src={ProductImgUrl} className="card-img" alt={product} />
                     </div>
                     <div className="col-8">
-                        <h5>{product}</h5>
+                        <div className="card-body">
+                            <h5 className="card-title text-uppercase">{product}</h5>
+                            <p className="card-text">{price}</p>
+                            <button className="btn btn-primary">Añadir al carrito</button>
+                            
+                        </div>
                     </div>
                 </div>
             </div>

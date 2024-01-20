@@ -2,8 +2,8 @@ import { Link, NavLink, useNavigate } from "react-router-dom"
 export const Navbar = () => {
     const navigate = useNavigate()
 
-    const onHome = () => {
-        navigate('/home', {
+    const onLogout = () => {
+        navigate('/login', {
             replace: true,
         })
     }
@@ -13,11 +13,11 @@ export const Navbar = () => {
                 <Link
                     className="navbar-brand"
                     to="/Home">
-                    Marquez
+                    <img width="120px" src="/img/logo small edit.png" alt="Logo" />
                 </Link>
 
                 <div className="navbar-collapse">
-                    <div className="navbar-nav">
+                    <h5 className="navbar-nav">
                         <NavLink
                             className="nav-item nav-link"
                             to="/coleccion-Hombres"
@@ -30,18 +30,18 @@ export const Navbar = () => {
                         >
                             Colección Mujeres
                         </NavLink>
-                    </div>
+                    </h5>
                 </div>
 
                 <div className="navbar-collapse collapse w-100 order-3 dual-collapse d-flex justify-content-end">
                     <ul className="navbar-nav ml-auto">
                         <button className="nav-item nav-link btn"
-                        onClick={onHome}
+                        onClick={onLogout}
                         >
-                            Home
+                            <h5>Login</h5>
                         </button>
                     </ul>
-                </div>
+                </div>                  
             </nav>
 
         </>
