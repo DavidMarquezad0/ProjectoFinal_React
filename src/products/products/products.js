@@ -5,7 +5,9 @@ export const products = [
         'description': 'Blazer relaxed fit. Cuello con solapas de muesca y manga larga acabada en puño con botón. Bolsillos de solapa en cadera. Cierre frontal con botones a presión.',
         'size': ['S', 'M', 'L', 'XL'],
         'coleccion': 'hombre',
-        'price': 'S/ 89.90'
+        'price': 'S/ 89.90',
+        'model': 'model1',
+        'quantity': '1'
     },
 
     {
@@ -14,7 +16,9 @@ export const products = [
         'description': 'Cazadora confeccionada en tejido técnico con acabado water repellent. Cuello solapa y manga larga. Bolsillos de vivo en pecho y plastrón con solapa en cadera. Detalle de bolsillo interior. Bajo ajustable con cordón en delantero. Cierre frontal de cremallera.',
         'size': ['S', 'M', 'L', 'XL'],
         'coleccion': 'hombre',
-        'price': 'S/ 100'
+        'price': 'S/ 100',
+        'model': 'model2',
+        'quantity': '1'
     },
 
     {
@@ -23,7 +27,9 @@ export const products = [
         'description': 'Pantalón con detalle de pliegues frontales en cintura. Bolsillos en delantero y detalle bolsillos de solapa con botón en espalda. Cierre frontal con cremallera y botón.',
         'size': ['36', '38', '40', '42'],
         'coleccion': 'hombre',
-        'price': 'S/ 87.50'
+        'price': 'S/ 87.50',
+        'model': 'model3',
+        'quantity': '1'
     },
 
     {
@@ -32,7 +38,8 @@ export const products = [
         'description': 'Cazadora ligeramente acolchada en su interior. Diseño de Desierto. Cuello elástico y manga larga. Bolsillos en cadera y detalle de bolsillo interior.',
         'size': ['S', 'M', 'L', 'XL'],
         'coleccion': 'hombre',
-        'price': 'S/ 95'
+        'price': 'S/ 95',
+        'quantity': '1'
     },
 
     {
@@ -41,7 +48,8 @@ export const products = [
         'description': 'Camiseta con cuello redondo y manga corta. Estampación de textos combinados a contraste en delantero y espalda.',
         'size': ['S', 'M', 'L', 'XL'],
         'coleccion': 'hombre',
-        'price': 'S/ 75'
+        'price': 'S/ 75',
+        'quantity': '1'
 
     },
 
@@ -51,7 +59,9 @@ export const products = [
         'description': 'Shorts de tiro alto con cinco bolsillos. Detalle de rotos y bajo sin costuras. Cierre frontal con cremallera y botón metálico.',
         'size': ['32', '34', '36', '38'],
         'coleccion': 'mujer',
-        'price': 'S/ 87'
+        'price': 'S/ 87',
+        'offer': 'short denim',
+        'quantity': '1'
 
     },
 
@@ -61,7 +71,8 @@ export const products = [
         'description': 'Camisa relaxed fit confeccionada en tejido de algodón. Cuello solapa y manga corta. Cierre frontal de botonadura.',
         'size': ['S', 'M', 'L', 'XL'],
         'coleccion': 'hombre',
-        'price': 'S/ 70'
+        'price': 'S/ 70',
+        'quantity': '1'
 
     },
 
@@ -71,7 +82,8 @@ export const products = [
         'description': 'Falda de tiro alto con bolsillos delanteros y de plastrón en espalda. Bajo acabado con abertura en delantero. Cierre frontal con cremallera y botón metálico.',
         'size': ['XS', 'S', 'M', 'L'],
         'coleccion': 'mujer',
-        'price': 'S/ 88.90'
+        'price': 'S/ 88.90',
+        'quantity': '1'
 
     },
 
@@ -81,7 +93,8 @@ export const products = [
         'description': 'Pantalón de tiro alto con bolsillos laterales. Detalle de pliegues. Cierre frontal con cremallera, botón interior y ganchos metálicos.',
         'size': ['XS', 'S', 'M', 'L'],
         'coleccion': 'mujer',
-        'price': 'S/ 99.90'
+        'price': 'S/ 99.90',
+        'quantity': '1'
 
     },
 
@@ -91,7 +104,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['40', '41', '42', '43'],
        'coleccion': 'hombre',
-       'price': 'S/ 70'
+       'price': 'S/ 70',
+       'quantity': '1'  
     },
 
     {   
@@ -100,7 +114,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['S', 'M', 'L', 'XL'],
        'coleccion': 'hombre' ,
-       'price': 'S/ 75'
+       'price': 'S/ 75',
+       'quantity': '1'
     },
 
     {   
@@ -109,7 +124,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['S', 'M', 'L', 'XL'],
        'coleccion': 'hombre',
-       'price': 'S/ 79'
+       'price': 'S/ 79',
+       'quantity': '1'
     },
 
     {   
@@ -118,7 +134,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['S', 'M', 'L', 'XL'],
        'coleccion': 'hombre',
-       'price': 'S/ 89'
+       'price': 'S/ 89',
+       'quantity': '1'
     },
 
     {   
@@ -127,7 +144,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['S', 'M', 'L', 'XL'],
        'coleccion': 'hombre',
-       'price': 'S/ 77.50'
+       'price': 'S/ 77.50',
+       'quantity': '1'
     },
 
     {   
@@ -136,7 +154,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['S', 'M', 'L', 'XL'],
        'coleccion': 'hombre',
-       'price': 'S/ 105'
+       'price': 'S/ 105',
+       'quantity': '1'
     },
 
     {   
@@ -145,7 +164,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['36', '38', '40', '42'],
        'coleccion': 'hombre',
-       'price': 'S/ 89'
+       'price': 'S/ 89',
+       'quantity': '1'
     },
 
     {   
@@ -154,7 +174,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['32', '34', '36', '38'],
        'coleccion': 'mujer', 
-       'price': 'S/ 97.50'
+       'price': 'S/ 97.50',
+       'quantity': '1'
     },
 
     {   
@@ -163,7 +184,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['32', '34', '36', '38'],
        'coleccion': 'mujer',
-       'price': 'S/ 85.90' 
+       'price': 'S/ 85.90' ,
+       'quantity': '1'
     },
 
     {   
@@ -172,7 +194,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['XS', 'S', 'M', 'L'],
        'coleccion': 'mujer' ,
-       'price': 'S/ 50'
+       'price': 'S/ 50',
+       'quantity': '1'
     },
 
     {   
@@ -181,7 +204,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['XS', 'S', 'M', 'L'],
        'coleccion': 'mujer',
-       'price': 'S/ 55'
+       'price': 'S/ 55',
+       'quantity': '1'
     },
 
     {   
@@ -190,7 +214,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['XS', 'S', 'M', 'L'],
        'coleccion': 'mujer',
-       'price': 'S/ 50'
+       'price': 'S/ 50',
+       'quantity': '1'
     },
 
     {   
@@ -199,7 +224,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['32', '34', '36', '38'],
        'coleccion': 'mujer' ,
-       'price': 'S/ 85.50'
+       'price': 'S/ 85.50',
+       'quantity': '1'
     },
 
     {   
@@ -208,7 +234,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['32', '34', '36', '38'],
        'coleccion': 'mujer',
-       'price': 'S/ 89'
+       'price': 'S/ 89',
+       'quantity': '1'
     },
 
     {   
@@ -217,7 +244,8 @@ export const products = [
         'description': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime voluptatibus, veniam vitae libero architecto at facere iusto voluptatum? Reprehenderit eos rerum repudiandae tempore inventore ad mollitia exercitationem quae atque',
         'size': ['32', '34', '36', '38'],
        'coleccion': 'mujer',
-       'price': 'S/ 76'
+       'price': 'S/ 76',
+       'quantity': '1'
     },
 
 ]

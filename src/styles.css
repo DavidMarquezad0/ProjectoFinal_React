@@ -1,0 +1,23 @@
+footer {
+    height: auto;
+    width: auto;
+}
+
+h1, h3, h5, b {
+    font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 576px) {
+    h5 {
+        font-size: 12px;
+    }
+}
+
+.form__space {
+    height: 90vh;
+    background-image: url(/img/model4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+

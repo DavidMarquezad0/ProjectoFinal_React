@@ -1,21 +1,21 @@
-import {Routes, Route, Navigate } from "react-router-dom"
+import { Routes, Route, Navigate } from "react-router-dom"
 import { ColeccionH, ColeccionM, SearchPage, ProductPage, HomePage } from "../pages"
+import { Navbar } from "../../ui"
 
 
 
 export const ProductsRoutes = () => {
-    return(
+    return (
         <>
-            <div className="container">
+            <Navbar />
             <Routes>
-            <Route path="home-Page" element={<HomePage/> }/>
-            <Route path='coleccion-Hombres' element={<ColeccionH />} />
-            <Route path='coleccion-Mujeres' element={<ColeccionM />} />
-            <Route path='search' element={<SearchPage />} />
-            <Route path='product/:id' element={<ProductPage />} />
-            <Route path='/*' element={<Navigate to="home-Page" />} />
+                <Route path='Home' element={<HomePage />} />
+                <Route path='coleccion-Hombres' element={<ColeccionH />} />
+                <Route path='coleccion-Mujeres' element={<ColeccionM />} />
+                <Route path='search' element={<SearchPage />} />
+                <Route path='product/:id' element={<ProductPage />} />
+                <Route path='/*' element={<Navigate to="" />} />
             </Routes>
-            </div>
         </>
     )
 }

@@ -16,6 +16,8 @@ export const SearchPage = () => {
 
     const products = getProductsByName(q)
 
+    const showSearch = (q.length === 0)
+    const ShowError = (q.length > 0 && products.length === 0)
 
     const onSearchSubmit = (e) => {
         e.preventDefault()
@@ -25,61 +27,68 @@ export const SearchPage = () => {
 
     return (
         <>
-            <div className="row container mt-5">
-                <div className="col-5">
-                    <h4>Buscar</h4>
-                    <hr />
-                    <form onSubmit={onSearchSubmit}>
-                        <input
-                            className="form-control"
-                            placeholder="Buscar producto"
-                            type="text"
-                            name="searchText"
-                            value={searchText}
-                            onChange={onInputChange}
-                        />
-
-                        <button
-                            className="btn btn-outline-primary mt-2"
-                        >
-                            Buscar
-                        </button>
-                    </form>
-                </div>
-                <div className="col-7">
-                    <h3>Resultados</h3>
-                    <hr />
-
-                    {/* <div className="alert alert-primary">
-                Buscar producto
-            </div>
-
-            <div className="alert alert-danger">
-                Producto no encontrado.
-            </div> */}
-
-                    {
-                        (q === '')
-                            ?
-                            <div className="alert alert-primary">
-                                Buscar producto
-                            </div>
-                            : (products.length === 0) &&
-                            <div className="alert alert-danger">
-                                No se encontró <b>{q}</b>.
-                            </div>
-                    }
-
-                    {
-                        products.map(product => (
-                            <ProductCard
-                                key={product.id}
-                                {...product}
+            <div className="container-fluid">
+                <div className="row mt-5 animate__animated animate__fadeIn">
+                    <div className="col-12 col-md-5 mb-4">
+                        <h4>Buscar</h4>
+                        <hr />
+                        <form onSubmit={onSearchSubmit}>
+                            <input
+                                className="form-control"
+                                placeholder="Buscar producto"
+                                type="text"
+                                autoComplete="off"
+                                name="searchText"
+                                value={searchText}
+                                onChange={onInputChange}
                             />
-                        ))
-                    }
+                            <button className="btn btn-outline-primary mt-2" type="submit">
+                                Buscar
+                            </button>
+                        </form>
+                    </div>
+                    <div className="col-12 col-md-7">
+                        <h3>Resultados</h3>
+                        <hr />
+
+                        <div
+                            className="alert alert-primary animate__animated animate__fadeIn"
+                            style={{ display: showSearch ? '' : 'none' }}
+                        >
+                            Buscar producto
+                        </div>
+
+                        <div
+                            className="alert alert-danger animate__animated animate__fadeIn"
+                            style={{ display: ShowError ? '' : 'none' }}
+                        >
+                            No se encontró <b>{q}</b>
+                        </div>
+
+                        {products.map((product) => (
+
+                            <div key={product.id} className="col-6">
+                                <ProductCard {...product} />
+                            </div>
+
+                        ))}
+                    </div>
+
+                    <div className="d-flex justify-content-center mb-4 animate__animated animate__fadeInRight">
+                        <div className="card"> 
+                            <div className="card-body">
+                                <blockquote className="blockquote mb-0">
+                                    <p>"Viste para el trabajo que deseas tener, vive la vida que deseas vivir y las metas que deseas alcanzar."</p>
+                                    <footer className="blockquote-footer">Marquez</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
+
+
         </>
     )
 }
